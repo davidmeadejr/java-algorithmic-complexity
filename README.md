@@ -1,4 +1,4 @@
-# Java Algorithmic Complexity
+# Algorithmic Complexity in Java
 
 ## Project Description
 
