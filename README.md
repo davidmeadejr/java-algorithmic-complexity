@@ -3,7 +3,7 @@
 ## Project Description
 
 What the application does:
-- Visualised the algorithmic complexity of common data structures & algorithms I implmented in Java.
+- Visualised the algorithmic complexity of common data structures & algorithms I implmented in Java. With graphs which show how fast a given algorithms runtime is as the size of the input (number of operations) gets larger.
 
 Technologies used and why:
 - 
