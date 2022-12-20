@@ -33,7 +33,7 @@ class LastAlgorithm {
       return arrayOfNums;
   }
 
-  // gets the last element of the arrayi
+  // gets the last element of the array
 	public static int getLastElement(int[] numbers) {
 		int lastNumber = numbers[numbers.length - 1];
 
