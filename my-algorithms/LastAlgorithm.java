@@ -24,7 +24,7 @@ class LastAlgorithm {
   public static LinkedList  generateArray(int firstNum, int lastNum) {
       LinkedList<Integer> arrayOfNums = new LinkedList<Integer>();
       for (int i = firstNum; firstNum <= lastNum; i++) {
-        arrayOfNums.add(i);;
+        arrayOfNums.add(i);
         System.out.println(arrayOfNums);
         return arrayOfNums;
       }
