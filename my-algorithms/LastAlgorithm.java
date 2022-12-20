@@ -13,10 +13,10 @@ class LastAlgorithm {
 
     generateArray(firstNum, lastNum); // prints the array
 
-		// Get the current time
-		// getLastElement(numbers);
-		// Get the current time
-		// Get difference
+    // Get the current time
+    // getLastElement(numbers);
+    // Get the current time
+    // Get difference
     // print array size time in ms
 	}
   
