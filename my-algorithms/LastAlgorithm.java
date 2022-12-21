@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Arrays;
 
 class LastAlgorithm {	
   // public static int[] numbers = {1, 4, 77, 10, 11, 12 , 849, 69, 112}; 
@@ -12,6 +13,7 @@ class LastAlgorithm {
     lastNum = 100;
 
     generateArray(firstNum, lastNum); // prints the array
+    
 
     // Get the current time
     // getLastElement(numbers);
@@ -23,8 +25,10 @@ class LastAlgorithm {
   // generates an array of n numbers
   public static LinkedList  generateArray(int firstNum, int lastNum) {
     LinkedList<Integer> arrayOfNums = new LinkedList<Integer>();
+
     for (int i = firstNum; firstNum <= lastNum; i++) {
       arrayOfNums.add(i);
+
       System.out.println(arrayOfNums);
       return arrayOfNums;
     }
