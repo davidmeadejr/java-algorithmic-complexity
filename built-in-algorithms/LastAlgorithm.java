@@ -11,14 +11,14 @@ class LastAlgorithm {
   }
 
   public static int getLastElement() {
-    int n = 7;
-    ArrayList<Integer> numbers = new ArrayList<Integer>(n);
+    int n = 10;
+    ArrayList<Integer> numbers = new ArrayList<Integer>(n); // generates and array of n numbers
   
     for (int i = 0; i <= n; i++) {
-      numbers.add(i);
+      numbers.add(i); // adds a number to the array and repeats the process n times
     }
 
-    System.out.println(numbers.size() - 1);
+    System.out.println(numbers.size() - 1); // prints the last element in the array
     return numbers.size() - 1;
   }
 }
