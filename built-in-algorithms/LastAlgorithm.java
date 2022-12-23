@@ -4,14 +4,22 @@
 */
 
 import java.util.ArrayList;
+import java.util.*;
+
 
 class LastAlgorithm {
   public static void main(String args[]) {
-     getLastElement();
+    long startTime = System.nanoTime();
+
+    getLastElement();
+
+    long endTime = System.nanoTime();
+    long duration = (endTime - startTime);
+    System.out.println(duration);
   }
 
   public static int getLastElement() {
-    int n = 10;
+    int n = 50000;
     ArrayList<Integer> numbers = new ArrayList<Integer>(n); // generates and array of n numbers
   
     for (int i = 0; i <= n; i++) {
