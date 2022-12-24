@@ -4,23 +4,27 @@
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.*;
 
 class ShuffleAlgorithm {
-  public static void main(String args[]) { 
-    int n;
-    n = 10;
+  public static void main(String args[]) {
+    long startTime = System.nanoTime();
 
-    shuffleArray(n);
+    shuffleArray();
+
+    long endTime = System.nanoTime();
+    long duration = (endTime - startTime);
+    System.out.println(duration);
   }
 
-  public static ArrayList<Integer> shuffleArray(int n) {
-    ArrayList<Integer> nums = new ArrayList<Integer>(n); // generates an array of n numbers
-    Random random = new Random(); 
- 
-    for (int i = 0; i <= n; i++) {
-      nums.add(random.nextInt(46)); // adds a random number between 0 - 46, n number of times
+  public static ArrayList<Integer> shuffleArray() {
+    ArrayList<Integer> nums = new ArrayList<Integer>(50); // generates an array of n numbers
+    
+    for (int i = 0; i <= 50; i++) {
+      nums.add(i);
     }
 
+    Collections.shuffle(nums);
     System.out.println(nums); // prints the shuffled array
     return nums;
   }
