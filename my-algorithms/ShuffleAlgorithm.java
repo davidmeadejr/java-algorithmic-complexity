@@ -18,11 +18,11 @@ class ShuffleAlgorithm {
   }
 
   public static ArrayList<Integer> shuffleArray() {
-    ArrayList<Integer> nums = new ArrayList<Integer>(50); // generates an array of n numbers
+    ArrayList<Integer> nums = new ArrayList<Integer>(1000000); // generates an array of n numbers
     Random random = new Random(); 
  
-    for (int i = 0; i <= 10; i++) {
-      nums.add(random.nextInt(100)); // adds a random number between 0 - 46, n number of times
+    for (int i = 0; i <= 1000000; i++) {
+      nums.add(random.nextInt()); // adds a random number.
     }
 
     System.out.println(nums); // prints the shuffled array
