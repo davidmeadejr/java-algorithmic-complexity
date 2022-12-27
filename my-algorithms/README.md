@@ -1,4 +1,4 @@
-# My Algorithms
+# DIY Algorithms
 
 ## Project Description
 
