@@ -7,7 +7,22 @@ What the application does:
 
 ### Last
 - Given an array, return the last element
-- Graphs:
+- Graph:
 ![Built-In Last Algorithm](/graphs/LastAlgorithmBuiltIn.png)
+
+### Reverse
+- Given an array return the array in reverse.
+- Graph:
+![Built-In Reverse Algorithm](/graphs/ReverseAlgorithmBuiltIn.png)
+
+### Shuffle
+- Given an array, shuffle the array.
+- Graph:
+![Built-In Shuffle Algorithm](/graphs/ShuffleAlgorithmBuiltIn.png)
+
+### Sort
+- Given a shuffled array, sort the array.
+- Graph:
+![Built-In Sort Algorithm](/graphs/SortAlgorithmBuiltIn.png)
 
 ---
