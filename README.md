@@ -15,10 +15,10 @@ Potential future features to add:
 - TODO
 
 ## Installation and Run Process
-- n/a
+- N/A
 
 ## How to use the Project
-- n/a
+- N/A
 
 ---
 
