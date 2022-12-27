@@ -18,7 +18,7 @@ Potential future features to add:
 - N/A
 
 ## How to use the Project
-- N/A
+- 
 
 ---
 
