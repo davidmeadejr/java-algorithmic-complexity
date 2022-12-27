@@ -5,18 +5,25 @@
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Collections;
+import java.util.*;
 
 class SortAlgorithm {
   public static void main(String args[]) {
-     sortArray();
+    long startTime = System.nanoTime();
+
+    sortArray();
+
+    long endTime = System.nanoTime();
+    long duration = (endTime - startTime);
+    System.out.println(duration);
   }
 
 
   public static ArrayList<Integer> sortArray() {
-    ArrayList<Integer> arr = new ArrayList<Integer>(50); // generates an array of 50 int
+    ArrayList<Integer> arr = new ArrayList<Integer>(1000000); // generates an array of n int
     Random random = new Random();
 
-    for (int i = 0; i <= 50; i++) {
+    for (int i = 0; i <= 1000000; i++) {
       arr.add(random.nextInt(100)); // generates a random number between 0 - 100 and adds it to the array, repeats this 50 times 
     }
  
