@@ -8,6 +8,6 @@ What the application does:
 ### Last
 - Given an array, return the last element
 - Graphs:
-
+![Built-In Last Algorithm](/graphs/LastAlgorithmBuiltIn.png)
 
 ---
