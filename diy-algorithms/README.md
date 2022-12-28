@@ -6,4 +6,10 @@
 ### Shuffle
 - Given an array, shuffle the array.
 - Graph:
-![Built-In Shuffle Algorithm](/graphs/ShuffleAlgorithmDIY.png)
+![DIY Shuffle Algorithm](/graphs/ShuffleAlgorithmDIY.png)
+
+<!-- ### Reverse
+- Given an array, shuffle the array.
+- Graph:
+![DIY Reverse Algorithm](/graphs/ReverseAlgorithmDIY.png)
+-->
