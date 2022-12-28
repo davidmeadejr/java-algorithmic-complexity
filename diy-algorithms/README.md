@@ -8,8 +8,7 @@
 - Graph:
 ![DIY Shuffle Algorithm](/graphs/ShuffleAlgorithmDIY.png)
 
-<!-- ### Reverse
+### Reverse
 - Given an array, shuffle the array.
 - Graph:
 ![DIY Reverse Algorithm](/graphs/ReverseAlgorithmDIY.png)
--->
