@@ -9,6 +9,6 @@
 ![DIY Shuffle Algorithm](/graphs/ShuffleAlgorithmDIY.png)
 
 ### Reverse
-- Given an array, shuffle the array.
+- Given an array, return the array in reverse.
 - Graph:
 ![DIY Reverse Algorithm](/graphs/ReverseAlgorithmDIY.png)
