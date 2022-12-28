@@ -18,7 +18,7 @@ class ShuffleAlgorithm {
   }
 
   public static ArrayList<Integer> shuffleArray() {
-    ArrayList<Integer> nums = new ArrayList<Integer>(1000000); // generates an array of n numbers
+    ArrayList<Integer> nums = new ArrayList<Integer>(1000000); // generates an array of with an initial size of 1000000
     Random random = new Random(); 
  
     for (int i = 0; i <= 1000000; i++) {
