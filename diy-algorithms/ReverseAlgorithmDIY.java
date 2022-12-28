@@ -21,7 +21,7 @@ class ReverseAlgorithmDIY {
     n = 50000;
     ArrayList<Integer> numbers = new ArrayList<Integer>(n); // generates and array of n numbers
 
-    for (int i = 0; i <=n; i++) {
+    for (int i = 0; i <= n; i++) {
       numbers.add(i); // adds element to the array
     }
 
