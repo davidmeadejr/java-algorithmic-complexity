@@ -9,24 +9,38 @@ import java.util.*;
 
 class LastAlgorithm {
   public static void main(String args[]) {
-    long startTime = System.nanoTime();
+    for (int size = 50000; size <= 1000000; size += 50000) {
+      ArrayList<Integer> arrayOfNums = genArray(size);
 
-    getLastElement();
+      long startTime = System.nanoTime();
 
-    long endTime = System.nanoTime();
-    long duration = (endTime - startTime);
-    System.out.println(duration);
+      getLastElement(arrayOfNums);
+
+      long endTime = System.nanoTime();
+      long duration = (endTime - startTime);
+      System.out.print(size + "\t");
+      System.out.println(duration);
+    }
   }
 
-  public static int getLastElement() {
-    int n = 50000;
+  public static ArrayList<Integer> genArray(int n) {;
     ArrayList<Integer> numbers = new ArrayList<Integer>(n); // generates and array of n numbers
   
     for (int i = 0; i <= n; i++) {
       numbers.add(i); // adds a number to the array and repeats the process n times
     }
 
-    System.out.println(numbers.size() - 1); // prints the last element in the array
-    return numbers.size() - 1;
+    // System.out.println(numbers);
+    return numbers;
+  }
+
+  public static int getLastElement(ArrayList<Integer> listOfNums) {
+
+    // System.out.println(listOfNums.get(listOfNums.size() - 1)); // prints the last element in the array
+    return listOfNums.get(listOfNums.size() - 1);
   }
 }
+
+// Create a new method that generates array n length
+
+//
