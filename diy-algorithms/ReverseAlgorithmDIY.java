@@ -1,4 +1,4 @@
-/*
+ int element = numbers.get(i);/*
 	Given an array return the array in reverse
 */
 
@@ -28,7 +28,7 @@ class ReverseAlgorithmDIY {
     ArrayList<Integer> result = new ArrayList<Integer>(n); // create a new array with the space to hold n numbers
 
     // Insert every number in numbers array into the result array starting with the last element and then decrementing
-    for (int i = numbers.get(numbers.size() - 1); i >= 0; --i) {
+    for (int i = numbers.size() - 1; i >= 0; --i) {
       int element = numbers.get(i);
       result.add(element);
     }
